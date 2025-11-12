@@ -11,7 +11,7 @@ let package = Package(
         .watchOS(.v9)
     ],
     products: [
-        .library(name: "Flow", targets: ["Flow"])
+        .library(name: "SwiftUIFlow", targets: ["Flow"])
     ],
     targets: [
         .target(
