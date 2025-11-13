@@ -1,6 +1,6 @@
 import SwiftUI
 import XCTest
-@testable import Flow
+@testable import SwiftUIFlow
 
 final class FlowTests: XCTestCase {
     func test_HFlow_size_singleElement() throws {

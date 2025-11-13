@@ -1,6 +1,6 @@
 import SwiftUI
 import XCTest
-@testable import Flow
+@testable import SwiftUIFlow
 
 class TestSubview: Flow.Subview, CustomStringConvertible {
     var spacing = ViewSpacing()

@@ -1,5 +1,5 @@
 import XCTest
-@testable import Flow
+@testable import SwiftUIFlow
 
 final class LineBreakingTests: XCTestCase {
     func test_flow() throws {
