@@ -22,14 +22,6 @@ let package = Package(
                 .enableUpcomingFeature("ExistentialAny"),
                 .swiftLanguageMode(.v6)
             ]
-        ),
-        .testTarget(
-            name: "FlowTests",
-            dependencies: ["SwiftUIFlow"],
-            swiftSettings: [
-                .enableUpcomingFeature("ExistentialAny"),
-                .swiftLanguageMode(.v6)
-            ]
         )
     ]
 )

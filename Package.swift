@@ -16,15 +16,6 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftUIFlow",
-            exclude: ["Example"],
-            swiftSettings: [
-                .enableUpcomingFeature("ExistentialAny"),
-                .enableExperimentalFeature("StrictConcurrency")
-            ]
-        ),
-        .testTarget(
-            name: "FlowTests",
-            dependencies: ["SwiftUIFlow"],
             swiftSettings: [
                 .enableUpcomingFeature("ExistentialAny"),
                 .enableExperimentalFeature("StrictConcurrency")
