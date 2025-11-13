@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Flow",
+    name: "SwiftUIFlow",
     platforms: [
         .iOS(.v16),
         .macOS(.v13),
@@ -11,11 +11,11 @@ let package = Package(
         .watchOS(.v9)
     ],
     products: [
-        .library(name: "SwiftUIFlow", targets: ["Flow"])
+        .library(name: "SwiftUIFlow", targets: ["SwiftUIFlow"])
     ],
     targets: [
         .target(
-            name: "Flow",
+            name: "SwiftUIFlow",
             exclude: ["Example"],
             swiftSettings: [
                 .enableUpcomingFeature("ExistentialAny"),
@@ -24,7 +24,7 @@ let package = Package(
         ),
         .testTarget(
             name: "FlowTests",
-            dependencies: ["Flow"],
+            dependencies: ["SwiftUIFlow"],
             swiftSettings: [
                 .enableUpcomingFeature("ExistentialAny"),
                 .enableExperimentalFeature("StrictConcurrency")
